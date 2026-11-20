@@ -7,7 +7,7 @@ import traceback
 app = FastAPI()
 
 # Load trained model
-model = joblib.load("models/student_models.pkl")
+model = joblib.load("Models/student_models.pkl")
 
 class StudentData(BaseModel):
     study_hours: float
